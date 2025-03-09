@@ -1,3 +1,4 @@
+import Setup.Setup;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -9,7 +10,7 @@ import org.junit.runner.RunWith;
 		publish = true,
 		dryRun = false)
 
-public class TestRunner 
+public class TestRunner extends Setup
 {
 	
 }
