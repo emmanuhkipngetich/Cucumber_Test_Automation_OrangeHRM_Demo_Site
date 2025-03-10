@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = "/path/to/maven"  // Change this to your actual Maven installation path
+        MAVEN_HOME = "C:\apache-maven-3.8.8\apache-maven-3.8.8"
     }
 
     stages {
@@ -21,7 +21,7 @@ pipeline {
 
         stage('Build Project') {
             steps {
-                sh 'mvn clean install -DskipTests'
+                sh 'mvn clean install'
             }
         }
 
