@@ -30,11 +30,5 @@ pipeline {
                 sh 'mvn test'
             }
         }
-
-        stage('Publish Cucumber Reports') {
-            steps {
-                cucumber reportsDirectory: 'cucumber-reports'
-            }
-        }
     }
 }
