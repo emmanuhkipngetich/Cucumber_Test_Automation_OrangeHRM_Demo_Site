@@ -24,7 +24,9 @@ Cucumber also provides integration with various programming languages such as Ja
 ## Prerequisites:
 - Install Intellij IDEA (Comunity Edition)
 - Install jdk or any LTS version
-- Configure ANDROID_HOME, JAVA_HOME and GRADLE_HOME as well as stable internet connection
+- Configure ANDROID_HOME, JAVA_HOME and GRADLE_HOME.
+
+### End to End test by @Emmanuel Bore SDET
 
 
 
