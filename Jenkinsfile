@@ -33,7 +33,7 @@ pipeline {
 
         stage('Publish Cucumber Reports') {
             steps {
-                cucumber reportsDirectory: 'target/cucumber-reports'
+                cucumber reportsDirectory: 'cucumber-reports'
             }
         }
     }
