@@ -14,20 +14,20 @@ pipeline {
 
         stage('Setup Environment') {
             steps {
-                sh 'java -version'
-                sh 'mvn --version'
+                bat 'java -version'
+                bat 'mvn --version'
             }
         }
 
         stage('Build Project') {
             steps {
-                sh 'mvn clean install'
+                bat 'mvn clean install'
             }
         }
 
         stage('Run Cucumber Tests') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
     }
