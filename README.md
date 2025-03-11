@@ -22,7 +22,7 @@ Cucumber also provides integration with various programming languages such as Ja
 - Open with Intelji Idea
 
 ## Prerequisites:
-- Install Intellij IDEA (Comunity Edition)
+- Install Intellij IDEA.
 - Install jdk or any LTS version
 - Configure ANDROID_HOME, JAVA_HOME and GRADLE_HOME.
 
