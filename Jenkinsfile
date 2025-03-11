@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/emmanuhkipngetich/Cucumber_Test_Automation_OrangeHRM_Demo_Site.git', branch: 'main'
+                git 'https://github.com/emmanuhkipngetich/Cucumber_Test_Automation_OrangeHRM_Demo_Site.git'
             }
         }
 
